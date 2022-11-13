@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B05E31F329218FC800A97098 /* GreekTouristLocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */; };
+		B05E31F529218FC800A97098 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E31F429218FC800A97098 /* ContentView.swift */; };
+		B05E31F729218FC900A97098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05E31F629218FC900A97098 /* Assets.xcassets */; };
+		B05E31FB29218FC900A97098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05E31FA29218FC900A97098 /* Preview Assets.xcassets */; };
+		B05E320529218FC900A97098 /* GreekTouristLocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E320429218FC900A97098 /* GreekTouristLocationsTests.swift */; };
+		B05E320F29218FC900A97098 /* GreekTouristLocationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E320E29218FC900A97098 /* GreekTouristLocationsUITests.swift */; };
+		B05E321129218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B05E320129218FC900A97098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05E31E729218FC800A97098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05E31EE29218FC800A97098;
+			remoteInfo = GreekTouristLocations;
+		};
+		B05E320B29218FC900A97098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05E31E729218FC800A97098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05E31EE29218FC800A97098;
+			remoteInfo = GreekTouristLocations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B05E31EF29218FC800A97098 /* GreekTouristLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekTouristLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsApp.swift; sourceTree = "<group>"; };
+		B05E31F429218FC800A97098 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B05E31F629218FC900A97098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B05E31F829218FC900A97098 /* GreekTouristLocations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreekTouristLocations.entitlements; sourceTree = "<group>"; };
+		B05E31FA29218FC900A97098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B05E320029218FC900A97098 /* GreekTouristLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekTouristLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05E320429218FC900A97098 /* GreekTouristLocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsTests.swift; sourceTree = "<group>"; };
+		B05E320A29218FC900A97098 /* GreekTouristLocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekTouristLocationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05E320E29218FC900A97098 /* GreekTouristLocationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsUITests.swift; sourceTree = "<group>"; };
+		B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B05E31EC29218FC800A97098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E31FD29218FC900A97098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E320729218FC900A97098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B05E31E629218FC800A97098 = {
+			isa = PBXGroup;
+			children = (
+				B05E31F129218FC800A97098 /* GreekTouristLocations */,
+				B05E320329218FC900A97098 /* GreekTouristLocationsTests */,
+				B05E320D29218FC900A97098 /* GreekTouristLocationsUITests */,
+				B05E31F029218FC800A97098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B05E31F029218FC800A97098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B05E31EF29218FC800A97098 /* GreekTouristLocations.app */,
+				B05E320029218FC900A97098 /* GreekTouristLocationsTests.xctest */,
+				B05E320A29218FC900A97098 /* GreekTouristLocationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05E31F129218FC800A97098 /* GreekTouristLocations */ = {
+			isa = PBXGroup;
+			children = (
+				B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */,
+				B05E31F429218FC800A97098 /* ContentView.swift */,
+				B05E31F629218FC900A97098 /* Assets.xcassets */,
+				B05E31F829218FC900A97098 /* GreekTouristLocations.entitlements */,
+				B05E31F929218FC900A97098 /* Preview Content */,
+			);
+			path = GreekTouristLocations;
+			sourceTree = "<group>";
+		};
+		B05E31F929218FC900A97098 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B05E31FA29218FC900A97098 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B05E320329218FC900A97098 /* GreekTouristLocationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B05E320429218FC900A97098 /* GreekTouristLocationsTests.swift */,
+			);
+			path = GreekTouristLocationsTests;
+			sourceTree = "<group>";
+		};
+		B05E320D29218FC900A97098 /* GreekTouristLocationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B05E320E29218FC900A97098 /* GreekTouristLocationsUITests.swift */,
+				B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */,
+			);
+			path = GreekTouristLocationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B05E31EE29218FC800A97098 /* GreekTouristLocations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05E321429218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocations" */;
+			buildPhases = (
+				B05E31EB29218FC800A97098 /* Sources */,
+				B05E31EC29218FC800A97098 /* Frameworks */,
+				B05E31ED29218FC800A97098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekTouristLocations;
+			productName = GreekTouristLocations;
+			productReference = B05E31EF29218FC800A97098 /* GreekTouristLocations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B05E31FF29218FC900A97098 /* GreekTouristLocationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05E321729218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocationsTests" */;
+			buildPhases = (
+				B05E31FC29218FC900A97098 /* Sources */,
+				B05E31FD29218FC900A97098 /* Frameworks */,
+				B05E31FE29218FC900A97098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05E320229218FC900A97098 /* PBXTargetDependency */,
+			);
+			name = GreekTouristLocationsTests;
+			productName = GreekTouristLocationsTests;
+			productReference = B05E320029218FC900A97098 /* GreekTouristLocationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B05E320929218FC900A97098 /* GreekTouristLocationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05E321A29218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocationsUITests" */;
+			buildPhases = (
+				B05E320629218FC900A97098 /* Sources */,
+				B05E320729218FC900A97098 /* Frameworks */,
+				B05E320829218FC900A97098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05E320C29218FC900A97098 /* PBXTargetDependency */,
+			);
+			name = GreekTouristLocationsUITests;
+			productName = GreekTouristLocationsUITests;
+			productReference = B05E320A29218FC900A97098 /* GreekTouristLocationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B05E31E729218FC800A97098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B05E31EE29218FC800A97098 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B05E31FF29218FC900A97098 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B05E31EE29218FC800A97098;
+					};
+					B05E320929218FC900A97098 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B05E31EE29218FC800A97098;
+					};
+				};
+			};
+			buildConfigurationList = B05E31EA29218FC800A97098 /* Build configuration list for PBXProject "GreekTouristLocations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B05E31E629218FC800A97098;
+			productRefGroup = B05E31F029218FC800A97098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B05E31EE29218FC800A97098 /* GreekTouristLocations */,
+				B05E31FF29218FC900A97098 /* GreekTouristLocationsTests */,
+				B05E320929218FC900A97098 /* GreekTouristLocationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B05E31ED29218FC800A97098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05E31FB29218FC900A97098 /* Preview Assets.xcassets in Resources */,
+				B05E31F729218FC900A97098 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E31FE29218FC900A97098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E320829218FC900A97098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B05E31EB29218FC800A97098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05E31F529218FC800A97098 /* ContentView.swift in Sources */,
+				B05E31F329218FC800A97098 /* GreekTouristLocationsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E31FC29218FC900A97098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05E320529218FC900A97098 /* GreekTouristLocationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05E320629218FC900A97098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05E320F29218FC900A97098 /* GreekTouristLocationsUITests.swift in Sources */,
+				B05E321129218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B05E320229218FC900A97098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05E31EE29218FC800A97098 /* GreekTouristLocations */;
+			targetProxy = B05E320129218FC900A97098 /* PBXContainerItemProxy */;
+		};
+		B05E320C29218FC900A97098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05E31EE29218FC800A97098 /* GreekTouristLocations */;
+			targetProxy = B05E320B29218FC900A97098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B05E321229218FC900A97098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B05E321329218FC900A97098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B05E321529218FC900A97098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreekTouristLocations/GreekTouristLocations.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekTouristLocations/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B05E321629218FC900A97098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GreekTouristLocations/GreekTouristLocations.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekTouristLocations/Preview Content\"";
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B05E321829218FC900A97098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekTouristLocations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreekTouristLocations";
+			};
+			name = Debug;
+		};
+		B05E321929218FC900A97098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekTouristLocations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreekTouristLocations";
+			};
+			name = Release;
+		};
+		B05E321B29218FC900A97098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreekTouristLocations;
+			};
+			name = Debug;
+		};
+		B05E321C29218FC900A97098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T7UHW36CL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreekTouristLocations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B05E31EA29218FC800A97098 /* Build configuration list for PBXProject "GreekTouristLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05E321229218FC900A97098 /* Debug */,
+				B05E321329218FC900A97098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05E321429218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05E321529218FC900A97098 /* Debug */,
+				B05E321629218FC900A97098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05E321729218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05E321829218FC900A97098 /* Debug */,
+				B05E321929218FC900A97098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05E321A29218FC900A97098 /* Build configuration list for PBXNativeTarget "GreekTouristLocationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05E321B29218FC900A97098 /* Debug */,
+				B05E321C29218FC900A97098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B05E31E729218FC800A97098 /* Project object */;
+}
