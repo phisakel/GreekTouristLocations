@@ -11,7 +11,7 @@ import SwiftUI
 struct GreekTouristLocationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UploadDataView().environmentObject(ViewModel())
         }
     }
 }

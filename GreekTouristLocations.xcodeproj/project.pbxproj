@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B05E31F329218FC800A97098 /* GreekTouristLocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */; };
-		B05E31F529218FC800A97098 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E31F429218FC800A97098 /* ContentView.swift */; };
+		B05E31F529218FC800A97098 /* UploadDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E31F429218FC800A97098 /* UploadDataView.swift */; };
 		B05E31F729218FC900A97098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05E31F629218FC900A97098 /* Assets.xcassets */; };
 		B05E31FB29218FC900A97098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05E31FA29218FC900A97098 /* Preview Assets.xcassets */; };
 		B05E320529218FC900A97098 /* GreekTouristLocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E320429218FC900A97098 /* GreekTouristLocationsTests.swift */; };
 		B05E320F29218FC900A97098 /* GreekTouristLocationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E320E29218FC900A97098 /* GreekTouristLocationsUITests.swift */; };
 		B05E321129218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */; };
+		B05E321F2921921A00A97098 /* GPXKit in Frameworks */ = {isa = PBXBuildFile; productRef = B05E321E2921921A00A97098 /* GPXKit */; };
+		B05E3221292192B200A97098 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E3220292192B200A97098 /* ViewModel.swift */; };
+		B05E3223292192FC00A97098 /* Tourist_locations_GR.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */; };
+		B05E32242921987500A97098 /* Tourist_locations_GR.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		B05E31EF29218FC800A97098 /* GreekTouristLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekTouristLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsApp.swift; sourceTree = "<group>"; };
-		B05E31F429218FC800A97098 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B05E31F429218FC800A97098 /* UploadDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDataView.swift; sourceTree = "<group>"; };
 		B05E31F629218FC900A97098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B05E31F829218FC900A97098 /* GreekTouristLocations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GreekTouristLocations.entitlements; sourceTree = "<group>"; };
 		B05E31FA29218FC900A97098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		B05E320A29218FC900A97098 /* GreekTouristLocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekTouristLocationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05E320E29218FC900A97098 /* GreekTouristLocationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsUITests.swift; sourceTree = "<group>"; };
 		B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B05E3220292192B200A97098 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tourist_locations_GR.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05E321F2921921A00A97098 /* GPXKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				B05E31F229218FC800A97098 /* GreekTouristLocationsApp.swift */,
-				B05E31F429218FC800A97098 /* ContentView.swift */,
+				B05E31F429218FC800A97098 /* UploadDataView.swift */,
 				B05E31F629218FC900A97098 /* Assets.xcassets */,
 				B05E31F829218FC900A97098 /* GreekTouristLocations.entitlements */,
 				B05E31F929218FC900A97098 /* Preview Content */,
+				B05E3220292192B200A97098 /* ViewModel.swift */,
 			);
 			path = GreekTouristLocations;
 			sourceTree = "<group>";
@@ -115,6 +123,7 @@
 		B05E320329218FC900A97098 /* GreekTouristLocationsTests */ = {
 			isa = PBXGroup;
 			children = (
+				B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */,
 				B05E320429218FC900A97098 /* GreekTouristLocationsTests.swift */,
 			);
 			path = GreekTouristLocationsTests;
@@ -145,6 +154,9 @@
 			dependencies = (
 			);
 			name = GreekTouristLocations;
+			packageProductDependencies = (
+				B05E321E2921921A00A97098 /* GPXKit */,
+			);
 			productName = GreekTouristLocations;
 			productReference = B05E31EF29218FC800A97098 /* GreekTouristLocations.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +229,9 @@
 				Base,
 			);
 			mainGroup = B05E31E629218FC800A97098;
+			packageReferences = (
+				B05E321D2921921A00A97098 /* XCRemoteSwiftPackageReference "GPXKit" */,
+			);
 			productRefGroup = B05E31F029218FC800A97098 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05E31FB29218FC900A97098 /* Preview Assets.xcassets in Resources */,
+				B05E32242921987500A97098 /* Tourist_locations_GR.gpx in Resources */,
 				B05E31F729218FC900A97098 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05E3223292192FC00A97098 /* Tourist_locations_GR.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05E31F529218FC800A97098 /* ContentView.swift in Sources */,
+				B05E31F529218FC800A97098 /* UploadDataView.swift in Sources */,
+				B05E3221292192B200A97098 /* ViewModel.swift in Sources */,
 				B05E31F329218FC800A97098 /* GreekTouristLocationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +455,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +495,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gr.phisakel.GreekTouristLocations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -612,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B05E321D2921921A00A97098 /* XCRemoteSwiftPackageReference "GPXKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mmllr/GPXKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B05E321E2921921A00A97098 /* GPXKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B05E321D2921921A00A97098 /* XCRemoteSwiftPackageReference "GPXKit" */;
+			productName = GPXKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B05E31E729218FC800A97098 /* Project object */;
 }
