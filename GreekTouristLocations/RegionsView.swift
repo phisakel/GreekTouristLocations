@@ -21,7 +21,7 @@ struct RegionsView: View {
         }
       }.task {
         do {
-          regions = try await vm.getRegionNames()
+          regions = try await vm.getRegions()
         } catch { showError = true; err = error  }
       }.alert(err?.localizedDescription ?? "", isPresented: $showError) {
         Button("OK", role: .cancel) {}

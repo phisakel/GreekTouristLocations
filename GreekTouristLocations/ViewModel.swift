@@ -30,7 +30,7 @@ final class ViewModel: ObservableObject {
   lazy var container = CKContainer.default() // (identifier: "iCloud.gr.phisakel.GreekTouristLocations")
   lazy var database = container.publicCloudDatabase
   
-  func getRegionNames() async throws -> [Region] {
+  func getRegions() async throws -> [Region] {
       let predicate = NSPredicate(value: true)
       let query = CKQuery(recordType: "Region", predicate: predicate)
       let (matchResults, _) = try await database.records(matching: query)
