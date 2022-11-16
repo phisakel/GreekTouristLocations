@@ -31,7 +31,7 @@ struct UploadDataView: View {
           case .success(let authResults):
             
             switch authResults.credential {
-            case let appleIDCredential as ASAuthorizationAppleIDCredential:
+            case _ as ASAuthorizationAppleIDCredential:
                // Change login state
               self.login = true
               Task { try? await vm.testUploadGpxFile() }

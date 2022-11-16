@@ -14,7 +14,8 @@ struct Region: Hashable {
   var rec: CKRecord?
 }
 
-struct Poi {
+struct Poi: Identifiable {
+  var id: String { name }
   var name: String // name of poi
   var location: CLLocation
   var rec: CKRecord?
@@ -26,9 +27,25 @@ final class ViewModel: ObservableObject {
   var pois = [Poi]()
   var track: GPXTrack!
   //var regionPois: [Region: [Poi]] = [:]
-  lazy var container = CKContainer(identifier: "iCloud.gr.phisakel.GreekTouristLocations")
+  lazy var container = CKContainer.default() // (identifier: "iCloud.gr.phisakel.GreekTouristLocations")
   lazy var database = container.publicCloudDatabase
   
+  func getRegionNames() async throws -> [Region] {
+      let predicate = NSPredicate(value: true)
+      let query = CKQuery(recordType: "Region", predicate: predicate)
+      let (matchResults, _) = try await database.records(matching: query)
+      let regions = matchResults.compactMap { _, result in try? result.get() }.compactMap { Region(name: $0["name"] as! String)  }
+      return regions
+  }
+  
+  func getRegionPois(regionName: String) async throws -> [Poi] {
+    let reference = CKRecord.Reference(recordID: CKRecord.ID(recordName: regionName), action: .none)
+    let predicate = NSPredicate(format: "region == %@", reference)
+    let query = CKQuery(recordType: "Poi", predicate: predicate)
+    let (matchResults, _) = try await database.records(matching: query)
+    let pois = matchResults.compactMap { _, result in try? result.get() }.compactMap { Poi(name: $0["name"] as! String, location: $0["location"] as! CLLocation) }
+    return pois
+  }
   
 #if DEBUG
   func upload(_ track:GPXTrack) async throws {

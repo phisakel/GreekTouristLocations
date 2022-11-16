@@ -18,6 +18,8 @@
 		B05E3221292192B200A97098 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E3220292192B200A97098 /* ViewModel.swift */; };
 		B05E3223292192FC00A97098 /* Tourist_locations_GR.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */; };
 		B05E32242921987500A97098 /* Tourist_locations_GR.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */; };
+		B09936222925855500B1BB1C /* RegionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09936212925855500B1BB1C /* RegionsView.swift */; };
+		B09936242925941500B1BB1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09936232925941500B1BB1C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B05E321029218FC900A97098 /* GreekTouristLocationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTouristLocationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B05E3220292192B200A97098 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B05E3222292192FC00A97098 /* Tourist_locations_GR.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tourist_locations_GR.gpx; sourceTree = "<group>"; };
+		B09936212925855500B1BB1C /* RegionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsView.swift; sourceTree = "<group>"; };
+		B09936232925941500B1BB1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				B05E31F829218FC900A97098 /* GreekTouristLocations.entitlements */,
 				B05E31F929218FC900A97098 /* Preview Content */,
 				B05E3220292192B200A97098 /* ViewModel.swift */,
+				B09936212925855500B1BB1C /* RegionsView.swift */,
+				B09936232925941500B1BB1C /* MapView.swift */,
 			);
 			path = GreekTouristLocations;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			files = (
 				B05E31F529218FC800A97098 /* UploadDataView.swift in Sources */,
 				B05E3221292192B200A97098 /* ViewModel.swift in Sources */,
+				B09936242925941500B1BB1C /* MapView.swift in Sources */,
+				B09936222925855500B1BB1C /* RegionsView.swift in Sources */,
 				B05E31F329218FC800A97098 /* GreekTouristLocationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

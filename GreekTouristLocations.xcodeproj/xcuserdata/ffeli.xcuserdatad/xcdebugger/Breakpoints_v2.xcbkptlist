@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E52708F4-D521-4880-BFC3-2AB0FDEAC7E3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FF796AB-C11B-47BC-86A9-0904A992FC5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "GreekTouristLocationsTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3FF796AB-C11B-47BC-86A9-0904A992FC5D - 230de7d70b3b6d59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  uuid = "3FF796AB-C11B-47BC-86A9-0904A992FC5D - 230de7d70b3b5213"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "920">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0267609-8128-4CAD-B87B-E04B665C67EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47">
+            <Locations>
+               <Location
+                  uuid = "A0267609-8128-4CAD-B87B-E04B665C67EF - d7dd055e75933185"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "A0267609-8128-4CAD-B87B-E04B665C67EF - 9652922233fe3022"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;__C.CKRecord, Swift.Error&gt;) -&gt; Swift.Optional&lt;__C.CKRecord&gt; in GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49">
+            <Locations>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - d7dd055e759331c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "796">
+               </Location>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - 90bbf51cb60596c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - 581665ddf6b477c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - 47c7ab4d6d93c99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) await resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - 2a1ce4b2aee3498f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "6988C384-AEC3-4231-BB8D-B2FC4EE5742A - 856c36a5d5028f8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for GreekTouristLocationsTests.GreekTouristLocationsTests.upload(GPXKit.GPXTrack) async throws -&gt; ()"
+                  moduleName = "GreekTouristLocationsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ffeli/Source/PhilipSoftware/GreekTouristLocations/GreekTouristLocationsTests/GreekTouristLocationsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB3280AA-EBCE-4949-835B-2986F3A74220"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocations/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "upload(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "985A3A25-C57F-4F84-80E2-2F9BC04DB399"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocations/UploadDataView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A332016F-20E6-4576-B4DF-E67349191AF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocations/UploadDataView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "377E4591-7FCC-4DAF-AFCE-354EE1AD0CFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GreekTouristLocations/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "upload(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
