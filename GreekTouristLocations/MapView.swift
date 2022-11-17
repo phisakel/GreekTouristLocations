@@ -17,8 +17,9 @@ struct MapView: View {
   @State private var map_region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 38.08, longitude: 22.175), span: MKCoordinateSpan(latitudeDelta: 2, longitudeDelta: 2))
 
     var body: some View {
-      Map(coordinateRegion: $map_region, annotationItems: pois) {
-        MapMarker(coordinate: $0.location.coordinate) 
+      Map(coordinateRegion: $map_region, annotationItems: pois) { r in
+        MapMarker(coordinate: r.location.coordinate)
+        //MapAnnotation(coordinate: r.location.coordinate) {Text(r.name).font(.subheadline)}
       }.task {
         do {
           pois = try await vm.getRegionPois(regionName: regionName)
